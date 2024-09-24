@@ -93,10 +93,10 @@ export const dateConfig: Site.DateConfig = {
 export const giscusConfig: Giscus.Config = {
   enable: true,
   id: 'giscus-comment',
-  repo: import.meta.env.QWER_GISCUS_REPO,
-  repoId: import.meta.env.QWER_GISCUS_REPO_ID,
-  category: import.meta.env.QWER_GISCUS_CATEGORY,
-  categoryId: import.meta.env.QWER_GISCUS_CATEGORY_ID,
+  repo: "fearnot221/fearnot221.vercel.app",
+  repoId: "R_kgDOM2SJuw",
+  category: 'Genaral', //Comment
+  categoryId: "DIC_kwDOM2SJu84CivPR",
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
