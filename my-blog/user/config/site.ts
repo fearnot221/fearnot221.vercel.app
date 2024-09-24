@@ -40,7 +40,7 @@ export const siteConfig: Site.Config = {
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/fearnot221'],
+  me: ['/'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -95,15 +95,15 @@ export const giscusConfig: Giscus.Config = {
   id: 'giscus-comment',
   repo: "fearnot221/fearnot221.vercel.app",
   repoId: "R_kgDOM2SJuw",
-  category: 'Comment',
+  category: 'General',
   categoryId: "DIC_kwDOM2SJu84CivPR",
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '0',
-  inputPosition: 'top',
+  inputPosition: 'bottom',
   loading: 'lazy',
-  lang: 'en',
-  'data-strict': '0',
+  lang: 'zh-TW',
+  // 'data-strict': '0',
 };
 
 export const navConfig: (DD.Nav | DD.Link)[] = [
