@@ -95,7 +95,7 @@ export const giscusConfig: Giscus.Config = {
   id: 'giscus-comment',
   repo: "fearnot221/fearnot221.vercel.app",
   repoId: "R_kgDOM2SJuw",
-  category: 'Genaral', //Comment
+  category: 'Comment',
   categoryId: "DIC_kwDOM2SJu84CivPR",
   mapping: 'pathname',
   reactionsEnabled: '1',
