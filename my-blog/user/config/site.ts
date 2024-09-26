@@ -9,13 +9,13 @@ import Avatar_96_PNG from '$assets/avatar.png?w=96&h=96&imagetools';
 import Avatar_192_PNG from '$assets/avatar.png?w=192&h=192&imagetools';
 import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 
-import SiteCover from '$assets/qwer.webp';
+import SiteCover from '$assets/avatar.png';
 
 export const siteConfig: Site.Config = {
   url: 'https://fearnot221.vercel.app',
-  title: "fearnot's Blog",
-  subtitle: '',
-  description: '',
+  title: "Fearnot's Blog",
+  subtitle: 'Fearnot Blog',
+  description: 'Fearnot Blog',
   lang: 'zh-Hant',
   timeZone: 'Asia/Taipei',
   since: 2024,
@@ -31,10 +31,10 @@ export const siteConfig: Site.Config = {
     avatar_96_png: Avatar_96_PNG,
     avatar_192_png: Avatar_192_PNG,
     avatar_512_png: Avatar_512_PNG,
-    website: 'https://sicst.org',
+    website: 'https://fearnot221.vercel.app',
     github: 'https://github.com/fearnot221',
     email: 'kenin221@gmail.com',
-    bio: `Peace begins <br/> With a smile`,
+    bio: `I like❄️</br>Winter⭐️`,
   },
 };
 
@@ -114,6 +114,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
   {
     name: 'SCIST',
     url: 'https://scist.org',
+    target: '_blank'
   }
 ];
 
@@ -127,6 +128,7 @@ export const mobilenavConfig: DD.Nav = {
     {
       name: 'SCIST',
       url: 'https://scist.org',
+      target: '_blank'
     }
   ],
 };

@@ -1,26 +1,31 @@
 ---
 title: About
 description: About Fearnot
-# cover: 
+published: '2024-09-26T14:29:00.000+08:00'
 options:
   - unlisted
 ---
-## whomai
+### whomai
 我是一個喜歡資安和社群的高中生
 (還有K-POP!!!)
 
-## Experience
-### Cyber Security
+### Experience
+#### Cyber Security
 2024 AIS3 Pre-exam 130th
+
 2024 FHSH CTF 3rd
+
 2024 THJCC 8th
+
 2024 MyFirst CTF
+
 2024 AIS3 EOF Qual
-### Algorithm
+
+#### Algorithm
 2023 APCS 2/2
 
-## Community
-### Staff
+### Community
+#### Staff
 - SCIST南台灣學生資訊社群 S5 總召
     - [Website](https://scist.org)
     - [Instagram](https://instagram.com/scist.tw)
@@ -32,14 +37,20 @@ options:
 
 ### Other
 SCIST S5 資安推廣課程 台南場/高雄場 講師
+
 2024 AIS3 Camp 學員
+
 2024 AIS3 club 學員
+
 2024 My First Hacking Day 學員
+
 2024 SecurityFocus Online 學員
+
 2024 HITCON 會眾
 
-## ~~cut cut me~~
+### ~~cut cut me~~
 DC : `fearnot221`
+
 Email : `kenin221@gmail.com`
 
 Ask About SCIST : 

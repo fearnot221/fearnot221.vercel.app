@@ -55,6 +55,12 @@
             QWER
           </a>
         </div>
+        <div>
+          <img
+            src="https://visitor-badge.laobi.icu/badge?page_id=fearnot221_blog&left_color=%23b0b3ab&right_color=%237e807d"
+            alt="Visitor Badge"
+          />
+        </div>
         <a
           itemprop="copyrightNotice"
           href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
