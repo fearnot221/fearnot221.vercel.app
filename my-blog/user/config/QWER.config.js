@@ -2,8 +2,8 @@ export const UserConfig = {
   DefaultDesktopShowTagFilter: false,
   DefaultCoverStyle: 'IN',
   DefaultTagName: 'tags',
-  DefaultPostLanguage: 'English',
-  PostLanguageTagName: 'Language',
+  // DefaultPostLanguage: 'English',
+  // PostLanguageTagName: 'Language',
   SeriesTagName: 'Series',
   YearTagName: 'Year',
 

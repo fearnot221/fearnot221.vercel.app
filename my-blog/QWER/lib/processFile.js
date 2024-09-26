@@ -125,7 +125,7 @@ const _processMD = (file, generateMeta) => {
   const _postData = {
     slug: _slug,
     title: _meta['title'],
-    language: _meta['language'] ?? UserConfig.DefaultPostLanguage,
+    // language: _meta['language'] ?? UserConfig.DefaultPostLanguage,
     description: _meta['description'],
     summary: _meta['summary'],
     content: _html2text ? LZString.compressToBase64(_html2text) : undefined,
@@ -151,8 +151,8 @@ const _processMD = (file, generateMeta) => {
   const year = { [UserConfig.YearTagName]: new Date(_postData['published']).getFullYear().toString() };
   _postData['tags'].push(year);
 
-  const language = { [UserConfig.PostLanguageTagName]: _postData['language'] };
-  _postData['tags'].push(language);
+  // const language = { [UserConfig.PostLanguageTagName]: _postData['language'] };
+  // _postData['tags'].push(language);
 
   posts.set(_postData['slug'], _postData);
   tags.set(_postData['tags']);

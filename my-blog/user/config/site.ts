@@ -22,7 +22,7 @@ export const siteConfig: Site.Config = {
   cover: SiteCover,
   author: {
     name: 'Fearnot',
-    status: '🚀',
+    status: '🪺',
     statusTip:
       '<a href="https://scist.org/" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >SCIST</a> is Great !',
     avatar: Avatar,
@@ -55,12 +55,12 @@ export const headConfig: Site.Head = {
           // '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
           // '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
           // Google tag (gtag.js)
-          `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
-          `<script type="text/partytown">
+          `<script async src="https://www.googletagmanager.com/gtag/js?id=G-WZMWHS4VJ5"></script>`,
+          `<script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-LQ73GWF6XT');
+            gtag('config', 'G-WZMWHS4VJ5');
           </script>`,
         ],
 };
@@ -112,13 +112,9 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     url: '/about',
   },
   {
-    name: 'Writeup',
-    url: '/writeup',
-  },
-  {
-    name: 'Article',
-    url: '/article',
-  },
+    name: 'SCIST',
+    url: 'https://scist.org',
+  }
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -129,12 +125,8 @@ export const mobilenavConfig: DD.Nav = {
       url: '/about',
     },
     {
-      name: 'Writeup',
-      url: '/writeup',
-    },
-    {
-      name: 'Article',
-      url: '/article',
-    },
+      name: 'SCIST',
+      url: 'https://scist.org',
+    }
   ],
 };
