@@ -1,32 +1,41 @@
 ---
-title:SCIST K-POP_World
-description:SCIST K-POP_World Challenge Writeup
-summary:SCIST K-POP_World Challenge Writeup
+title: SCIST K-POP_World
+description: SCIST K-POP_World Challenge Writeup
+summary: SCIST K-POP_World Challenge Writeup
 published: '2024-09-26T11:49:00.000+08:00'
 tags:
-  - [Writeup]
+  - Writeup
 ---
 
-:::danger
-注意！請先按照文字說明嘗試看看，不要直接打開看Command
+:::error warning
+注意！請先按照文字說明嘗試看看，不要直接看Command
 Commad僅會提供關鍵指令
 :::
 ### Setup
 用snippet建立環境後打開遊戲就會看到第一個flag了
->[!Tip]
->PSY is right beside you, and he has been waiting for a long time
+
+:::tip
+PSY is right beside you, and he has been waiting for a long time
+:::
 
 ### Gangnam Style
 根據上一段提示直接打開檔案
->[!Important]Command
-||`cat Gangnam_Style`||
 
->[!Tip]
->PSY has been waiting for you for a long time. 
+:::Commad
+```bash
+cat Gangnam_Style
+```
+:::
+
+:::tip
+PSY has been waiting for you for a long time. 
 He knows that Tzuyu has some clues about winter, but he only knows that she is at a TV station.
+:::
+
 ### Run away
 按照上一步的提示，找到位在`~/TV_stations/Music_Bank/guest/Tzuyu`的檔案`Run_Away`
->[!Important]Commad
+
+> [!Important] Commad
 ||`cat ~/TV_stations/Music_Bank/guest/Tzuyu/Run_Away`||
 
 >[!Tip]
